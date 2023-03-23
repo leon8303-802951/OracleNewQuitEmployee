@@ -1,0 +1,14 @@
+﻿
+                string BatchNo = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff");
+
+
+這個是新增員工時要 ADD 進ORACLE
+以及 離職時要停用員工
+
+
+
+
+model.PersonNumber = 員編;
+model.Names[0].FirstName = 員工姓名;
+model.Names[0].MiddleNames = 員工英文姓名;
+model.Names[0].LastName = 員工編號 EmpNo;
